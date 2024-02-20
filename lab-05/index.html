@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lab-05</title>
+</head>
+<body>
+    <header>
+        <section id="search">
+          <input placeholder="&#128269; search" id="myQuery" aria-label="search" type="search">
+          <button id="searchButton">search</button>
+        </section>
+        <h1>User Input</h1>
+      </header>
+      <main>
+        <section>
+          <h2>Basic input</h2>
+          <label for="myName">Enter your name</label>
+          <input id="myName">
+          <input value="default value">
+<input type="color" value="#ff0000">
+<input type="date" value="2021-01-01">
+        </section>
+        <section>
+            <h2>Numbers</h2>
+            <label for="myAge">Enter your age: </label>
+            <input id="myAge" type="number" max="150" min="16">
+          </section>
+          <section class="relative">
+            <h2>Ranges</h2>
+            <label for="myHeight">Element height: </label>
+            <input id="myHeight" type="range" value="50">
+            <div id="heightTarget"></div>
+          </section>
+          
+      </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

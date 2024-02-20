@@ -1,1 +1,1 @@
-myElement.textContent = "IVE CHANGED THE CONTENT";
+console.log("Hello!");
